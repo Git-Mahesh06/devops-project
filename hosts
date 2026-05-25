@@ -1,0 +1,5 @@
+[ci-master]
+localhost ansible_connection=local
+
+[ci-agent]
+agent ansible_host=20.205.36.125 ansible_user=azureuser
